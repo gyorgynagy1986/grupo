@@ -1,0 +1,20 @@
+.nav {
+    height: 8rem;
+
+    @include respond (tablet) {
+        height: 8rem;
+    }
+
+    @include respond (SCtablet) {
+        height: 7rem;
+        padding: 4rem;
+
+        @include respond (phone) {
+            padding: 2rem;
+        }
+       
+        img {
+            display: block !important;
+        }
+    }
+}

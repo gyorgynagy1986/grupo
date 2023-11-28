@@ -1,0 +1,50 @@
+.btn {
+    padding: 10px 60px 10px 20px;
+    width: 153px;
+    height: 47px;
+    background: #333333;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    transition: all .1s ease-out;
+
+    span {
+        margin-left: 1rem;
+    }
+
+    &:hover {
+        background: #555555;
+    }
+}
+
+
+.btn-footer {
+    width: 124px;
+    height: 38px;
+    
+
+    background: #222222;
+
+    text-transform: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #AAAAAA;
+    transition: all .1s ease-out;
+
+    @include respond (phone) { 
+        margin-bottom: 4rem;
+    }
+
+    &:hover {
+        background: #333333;
+
+    }
+
+}
