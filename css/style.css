@@ -179,7 +179,7 @@ header {
   min-height: 883px;
   width: 100%;
   position: relative;
-  background-image: url(/assets/Desktop/header.png);
+  background-image: url(/assets/Desktop/h2.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -197,13 +197,12 @@ header {
         display: none; } }
   @media only screen and (min-width: 90em) {
     .content-container {
-      background-image: url(/assets/D1440+/header.jpg);
+      background-image: url(/assets/D1440+/h2.jpg);
       background-size: 80%;
-      background-position-y: 0%;
       min-height: 927px; } }
   @media only screen and (max-width: 64.5em) {
     .content-container {
-      background-image: url(/assets/Tablet/header.png); } }
+      background-image: url(/assets/Tablet/h2.png); } }
   @media only screen and (max-width: 946px) {
     .content-container {
       background-position: top;
@@ -212,7 +211,8 @@ header {
       width: 100%;
       min-height: 760px;
       display: flex;
-      align-items: flex-end; } }
+      align-items: flex-end;
+      background-image: url(/assets/mobile/h2.png); } }
   @media only screen and (max-width: 37.5em) {
     .content-container {
       background-size: contain; } }
@@ -305,13 +305,13 @@ main {
         main .content__container .ctr {
           justify-content: unset; } }
   main .photo-1 {
-    background: url(/assets/Desktop/1.png); }
+    background: url(/assets/Desktop/negro.jpg); }
   main .photo-2 {
-    background: url(/assets/Desktop/2.png); }
+    background: url(/assets/Desktop/lanu.jpg); }
   main .photo-3 {
-    background: url(/assets/Desktop/3.png); }
+    background: url(/assets/Desktop/fuego.jpg); }
   main .photo-4 {
-    background: url(/assets/Desktop/4.png); }
+    background: url(/assets/Desktop/marinos.jpg); }
   main .content__container-photoContainer {
     height: 100%;
     display: block;
