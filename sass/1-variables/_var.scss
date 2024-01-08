@@ -29,7 +29,7 @@ $color-footer:#000000;
     }
 
     @if $breakpoint == phone {
-      @media only screen and (max-width: 47.9375em) { @content };    //730px
+      @media only screen and (max-width: 946px) { @content };    //730px
   }
 
     @if $breakpoint == phoneMinwidth {
