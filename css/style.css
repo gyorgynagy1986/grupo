@@ -351,30 +351,31 @@ main {
 
 footer {
   background-color: black;
-  min-height: 311px;
   padding-left: 8rem;
   padding-right: 8rem;
-  padding-top: 5.8rem; }
+  padding-top: 5.8rem;
+  padding-bottom: 5.8rem; }
   @media only screen and (max-width: 64.5em) {
     footer {
       padding-left: 4rem;
       padding-right: 4rem; } }
   @media only screen and (max-width: 47.9375em) {
     footer {
-      padding-top: 2rem;
+      padding-top: 4rem;
       padding-left: 2rem;
-      padding-right: 2rem; } }
+      padding-right: 2rem;
+      padding-bottom: 2rem; } }
 
 .main-container {
   width: 100%;
-  margin-bottom: 58.5px; }
+  margin-bottom: 40px; }
   @media only screen and (max-width: 47.9375em) {
     .main-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-bottom: 50px; } }
+      margin-bottom: 30px; } }
   .main-container .company {
     font-size: 24px !important;
     margin-bottom: 2rem; }
