@@ -179,7 +179,7 @@ header {
   min-height: 883px;
   width: 100%;
   position: relative;
-  background-image: url(/assets/Desktop/h2.png);
+  background-image: url(/assets/Desktop/header.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
@@ -197,12 +197,12 @@ header {
         display: none; } }
   @media only screen and (min-width: 90em) {
     .content-container {
-      background-image: url(/assets/D1440+/h2.jpg);
+      background-image: url(/assets/D1440+/header.jpg);
       background-size: 80%;
       min-height: 927px; } }
   @media only screen and (max-width: 64.5em) {
     .content-container {
-      background-image: url(/assets/Tablet/h2.png); } }
+      background-image: url(/assets/Tablet/header.png); } }
   @media only screen and (max-width: 946px) {
     .content-container {
       background-position: top;
@@ -212,7 +212,7 @@ header {
       min-height: 760px;
       display: flex;
       align-items: flex-end;
-      background-image: url(/assets/mobile/h2.png); } }
+      background-image: url(/assets/mobile/header.png); } }
   @media only screen and (max-width: 37.5em) {
     .content-container {
       background-size: contain; } }
