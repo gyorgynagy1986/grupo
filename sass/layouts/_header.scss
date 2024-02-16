@@ -5,10 +5,10 @@ header {
 
 .content-container{
     height: 100%;
-    min-height: 883px;
+    min-height: 800px;
     width: 100%;
     position: relative;
-    background-image: url(/assets/Desktop/header.png);
+    background-image: url(/assets/Desktop/header.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -31,13 +31,13 @@ header {
 
     @include respond (SC1440UP) {
         background-image: url(/assets/D1440+/header.jpg);
-        background-size: 80%;
-       // background-position-y: 0%;
-        min-height: 927px;
+        background-size: 70%;
+        background-position-y: 0%;
+        min-height: 90vh;
     }
 
     @include respond (tablet) {
-        background-image: url(/assets/Tablet/header.png);
+        background-image: url(/assets/Tablet/header.jpg);
     }
 
     @include respond (phone) {
@@ -48,7 +48,7 @@ header {
         min-height: 760px;
         display: flex;
         align-items: flex-end;
-        background-image: url(/assets/mobile/header.png);
+        background-image: url(/assets/Tablet/header.jpg);
 
     }
 

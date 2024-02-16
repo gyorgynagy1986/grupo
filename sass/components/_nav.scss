@@ -16,6 +16,11 @@
     @include respond (SCtablet) {
         padding: 0rem; }
 
+        @include respond (phone) {
+            font-size: 17px;
+
+        }
+
  }
 
     @include respond (tablet) {
@@ -25,7 +30,7 @@
     }
 
     @include respond (SCtablet) {
-        height: 7rem;
+        height: 5.5rem;
         padding: 2rem;
 
 
